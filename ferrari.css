@@ -1,0 +1,78 @@
+body {
+	margin: 0;
+}
+h1	{
+	margin: 0;
+}
+
+.header {
+	width: 100%;
+	height: 550px;
+	background: url('https://soymotor.com/sites/default/files/styles/large/public/imagenes/noticia/ferrari_portofino_1.jpg');
+	background-size: cover;
+	background-position: center bottom;
+	position: relative;
+}
+
+.header-filter {
+	position: absolute;
+	top: 0;
+	right:0;
+	left:0;
+	bottom: 0;
+	background: #000;
+	opacity: 0.5;
+}
+
+.header-content {
+	position: absolute;	
+	top: 48px;
+	left: 48px;
+	right: 48px;
+	bottom: 48px;
+	border: 2px solid #ddd;
+	border-radius: 4px;
+}
+
+.header-content-title {
+	position: absolute;
+	bottom: 0;
+	margin: 36px;
+}
+
+.header-content-title h1 {
+	color: yellow;
+	text-transform: uppercase;
+	font-size: 42px;
+	margin-bottom: 36px;
+}
+
+.arrow {
+	width: 3px;
+	height: 130px;
+	background: #fff;
+	position: relative;
+}
+
+.arrow-head {
+		width: 4px;
+		height: 10px;
+		position: absolute;
+		bottom: 0;
+		background: #fff;
+		transform: rotate(45deg);
+		left: 3px;
+}
+
+.arrow-head2 {
+		width: 4px;
+		height: 10px;
+		position: absolute;
+		bottom: 0;
+		background: #fff;
+		transform: rotate(45deg);
+		right: 3px;
+
+
+}
+
